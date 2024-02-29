@@ -71,8 +71,11 @@
 /* header section endss*/
 
 /* advert section starts*/
+.diet-wrapper{
+    background-color: rgb(72, 167, 72);
+}
 .advert{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     padding-top: 4rem;
     padding-bottom: 2rem;
 }
@@ -121,7 +124,7 @@ font-weight: bold;
 
 /* diet-tips section starts*/
 .diet-tips{
-    background-color: brown;
+    /* background-color: brown; */
     padding: 2rem 0;
 }
 .diet-tips .main-box{
@@ -337,5 +340,40 @@ border: none;
     color: blueviolet;
 }
 /* footer section ends*/
+
+@media (min-width: 576px) { 
+
+    /* testimonial section starts*/
+
+.testimonial .cards{
+    /* margin: 6rem 3rem; */
+}
+.testimonial .cards .card{
+display: flex;
+flex-direction:column ;
+align-items: center;
+/* padding: 2rem 5rem; */
+border: none;
+}
+.testimonial .cards .card img{
+    /* width: 4rem;
+    border-radius: 50px;
+    border: 1px black solid;
+    margin-bottom: 1.5rem; */
+}
+.testimonial .cards .card .rating{
+    color: rgb(222, 236, 17);
+    margin-bottom: 1rem;
+}
+.testimonial .cards .card p{
+    /* text-align: center; */
+    color: grey;
+}
+.testimonial .cards .card h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+/* testimonial section ends*/
+ }
 
 
