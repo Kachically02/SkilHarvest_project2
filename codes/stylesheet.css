@@ -35,6 +35,9 @@
     font-weight: bold;
     border-radius: 5px;
 }
+.navbar  .icon{
+    font-size: 2rem;
+}
 /* navbar section ends*/
 
 /* header section starts*/
@@ -375,5 +378,14 @@ border: none;
 }
 /* testimonial section ends*/
  }
-
+ @media (max-width: 768px)
+{
+    .navbar-toggler {
+        display: none;
+    }
+}
+.navbar-toggle{
+    background-color: transparent;
+    border: none;
+}
 
