@@ -359,10 +359,10 @@ align-items: center;
 border: none;
 }
 .testimonial .cards .card img{
-    /* width: 4rem;
+    width: 4rem;
     border-radius: 50px;
     border: 1px black solid;
-    margin-bottom: 1.5rem; */
+    margin-bottom: 1.5rem;
 }
 .testimonial .cards .card .rating{
     color: rgb(222, 236, 17);
