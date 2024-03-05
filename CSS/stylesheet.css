@@ -345,12 +345,7 @@ border: none;
 /* footer section ends*/
 
 @media (min-width: 576px) { 
-
-    /* testimonial section starts*/
-
-.testimonial .cards{
-    /* margin: 6rem 3rem; */
-}
+    
 .testimonial .cards .card{
 display: flex;
 flex-direction:column ;
@@ -388,4 +383,149 @@ border: none;
     background-color: transparent;
     border: none;
 }
+
+/* header section starts*/
+.header{
+    background-image: url(/images/decameal.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 950px;
+}
+.header .container{
+    padding: 10rem 10rem 10rem 5rem;
+}
+.header .container h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.header .container h1 span{
+    color: rgba(32, 124, 32, 0.856);
+}
+.header .container p{
+    color: white;
+    text-align: justify;
+    font-size: small;
+    
+}
+.header .container button{
+    background-color: rgba(32, 124, 32, 0.856);
+    color: white;
+    padding: .5rem 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+/* header section endss*/
+
+/* advert section starts*/
+
+.advert .card{
+    margin-bottom: 2rem;
+}
+
+/* advert section ends*/
+
+/* diet-tips section starts*/
+.diet-tips{
+    /* background-color: brown; */
+    padding: 2rem 0;
+}
+.diet-tips .main-box{
+    align-items: center;
+}
+
+.diet-tips .main-box .image .images{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.diet-tips .main-box .image .jollof img{
+    width: 24rem;
+    height: 25rem;
+}
+.diet-tips .main-box .image .images img{
+    height: 15rem;
+}
+.diet-tips .main-box .desc .body{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.diet-tips .main-box .desc .body button{
+    padding: .5rem 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 25px; 
+    margin-top: 3rem; 
+    font-size: small; 
+}
+/* diet-tips section ends*/
+
+/*menu card section starts*/
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu .desc{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 0 2rem;
+}
+.menu .desc h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.menu .desc p{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.menu  .card img{
+    width: 25.3rem;
+    height: 17rem;
+}
+/*menu card section ends*/
+/* testimonial section starts*/
+
+.testimonial .cards{
+    margin: 6rem 3rem;
+}
+.testimonial .cards .card{
+display: flex;
+flex-direction:column ;
+align-items: center;
+padding: 2rem 1rem;
+border: none;
+}
+/* testimonial section ends*/
+
+/* notification starts*/
+
+.notification .content .input{
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+.notification .content .input input{
+    padding: .7rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+.notification .content .input button{
+    border: none;
+    padding: .7rem 2rem;
+    background-color: rgba(1, 2, 15, 0.925);
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    margin-left: .5rem;
+}
+/* notification endss*/
 
